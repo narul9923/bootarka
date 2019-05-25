@@ -1,0 +1,1 @@
+SELECT a.name, COUNT(b.user_id) AS total from users a JOIN skills b ON a.id=b.user_id;
